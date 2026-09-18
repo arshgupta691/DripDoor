@@ -38,7 +38,7 @@ mvn clean package
 
 # Run the application
 mvn exec:java
-
+```
 ###📸Application Structure
   **com.dripdoor.view**: Contains all FlatLaf-styled UI components (Login, Dashboard, Catalog, AI Stylist).
   
