@@ -39,11 +39,11 @@ mvn clean package
 # Run the application
 mvn exec:java
 
-📸 **Application Structure**
-  com.dripdoor.view: Contains all FlatLaf-styled UI components (Login, Dashboard, Catalog, AI Stylist).
+###📸Application Structure
+  **com.dripdoor.view**: Contains all FlatLaf-styled UI components (Login, Dashboard, Catalog, AI Stylist).
   
-  com.dripdoor.controller: Handles business logic, cart management, and AI prompt orchestration.
+  **com.dripdoor.controller**: Handles business logic, cart management, and AI prompt orchestration.
   
-  com.dripdoor.service: Manages external API integrations (Firebase Auth/DB, Cloudinary, Gemini).
+  **com.dripdoor.service**: Manages external API integrations (Firebase Auth/DB, Cloudinary, Gemini).
   
-  com.dripdoor.model: Core data structures (User, Product, Order, CartItem, SavedAddress).
+  **com.dripdoor.model**: Core data structures (User, Product, Order, CartItem, SavedAddress).
